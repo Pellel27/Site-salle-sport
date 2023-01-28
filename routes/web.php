@@ -1,5 +1,11 @@
 <?php
 
+
+use App\Http\Controllers\AccueilController;
+use App\Http\Controllers\CoursController;
+use App\Http\Controllers\Tarifscontroller;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MentionsLegalesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +20,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('accueil');
 });
+
+Route::get('/cours', function () {
+    return view('cours');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/mentions-legales', function () {
+    return view('mentions-legales');
+});
+
+Route::get('/tarifs', function () {
+    return view('tarifs');
+});
+
