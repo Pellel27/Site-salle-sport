@@ -19,23 +19,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('accueil');
-});
+Route::get('/', [AccueilController::class, 'index'])->name('Accueil');
 
-Route::get('/cours', function () {
-    return view('cours');
-});
+Route::get('/accueil', [AccueilController::class, 'index'])->name('accueil');
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/cours', [CoursController::class, 'index'])->name('Cours');
 
-Route::get('/mentions-legales', function () {
-    return view('mentions-legales');
-});
+Route::get('/contact', [ContactController::class, 'index'])->name('Contact');
 
-Route::get('/tarifs', function () {
-    return view('tarifs');
-});
+Route::get('/mentions-legales', [MentionsLegalesController::class, 'index'])->name('Mentions-legales');
 
+Route::get('/tarifs', [TarifsController::class, 'index'])->name('Tarifs');
