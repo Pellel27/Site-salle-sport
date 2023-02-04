@@ -40,5 +40,5 @@ Pour Markdown (pour rédiger la documentation technique) :
 
 ## Mentions legales
 Les images suivantes ont été utilisées :
-https://Salle-De-Sport.jpg"
+https://Salle-de-sport.jpg"
 https://Sport-Pratiquer.jpg"
