@@ -16,10 +16,11 @@
         <header>
             <nav>
                 <ul> 
-                    <li><a href="accueil"> Accueil</a></li>
-                    <li><a href="contact"> Contact</a></li>
-                    <li><a href="tarifs"> Tarifs</a></li>
-                    <li><a href="cours"> Cours</a></li>
+                    <li><a href="{{route('accueil') }}"> Accueil</a></li>
+                    <li><a href="{{route('contact') }}"> Contact</a></li>
+                    <li><a href="{{route('tarifs') }}"> Tarifs</a></li>
+                    <li><a href="{{route('cours') }}"> Cours</a></li>
+                    <li><a href="{{route('mentions-legales') }}"> Mentions-Legales</a></li>
                 </ul>
             </nav>
         </header>    
@@ -27,8 +28,7 @@
         @show
         <footer>
             <ul> 
-                <li><a href="contact"> Contact</a></li>
-                <li><a href="mention-legale"> Mentions légales</a></li>
+                <li><a href="{{route('mentions-legales') }}"> Mentions-Légales</a></li>
             </ul>
         </footer>
     </body>

@@ -1,9 +1,10 @@
 @extends('base')
 
-@section('page_title', 'mention-legale')
+@section('page_title', 'mentions-legales')
 @section('content')
 
-    <h1>Mention-Legale</h1>
-    <h2>Salle de Sport</h2>
-    {{-- Lorem ipsum dolor sit amet consectetur adipisicing elit.  --}}
-    @endsection
+{{-- le nom du site --}}
+    <h2>Mentions-Legales</h2>
+    {{-- Ajout de lorem ipsum pour remplacer le texte à mettre --}}
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+@endsection

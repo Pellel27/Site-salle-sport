@@ -8,7 +8,8 @@
     @endsection
 
     @section('content')
-        <h1>Tarifs</h1>
+        <h2>Tarifs</h2>
+        {{-- Le prix des activités, l'adhésion et l'abonnement--}}
         <p> adhésion annuelle à l'associtation : 15 eur</p>
         <p> la séance : 10 eur</p>
         <p>le carnet de 10 séances : 90 eur</p>

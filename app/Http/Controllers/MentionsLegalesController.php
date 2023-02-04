@@ -9,7 +9,7 @@ class MentionsLegalesController extends Controller
 {
     public function index()
     {
-        return view('MentionLegales');
+        return view('mentions-legales');
     }
 
 }
